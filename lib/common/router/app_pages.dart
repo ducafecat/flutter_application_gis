@@ -15,6 +15,7 @@ class AppPages {
     // 白名单
     GetPage(
       name: AppRoutes.Login,
+      transition: Transition.fadeIn,
       page: () => LoginView(),
     ),
 

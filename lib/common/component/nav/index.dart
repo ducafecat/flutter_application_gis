@@ -13,25 +13,35 @@ class NavWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           IconButton(
-              onPressed: () {
-                Get.toNamed(AppRoutes.Home + AppRoutes.Dashboard);
-              },
-              icon: Icon(Icons.home)),
+            onPressed: () {
+              Get.toNamed(AppRoutes.Home + AppRoutes.Dashboard);
+            },
+            icon: Icon(Icons.home),
+          ),
           IconButton(
-              onPressed: () {
-                Get.toNamed(AppRoutes.Home + AppRoutes.Users);
-              },
-              icon: Icon(Icons.supervised_user_circle)),
+            onPressed: () {
+              Get.toNamed(AppRoutes.Home + AppRoutes.Users);
+            },
+            icon: Icon(Icons.supervised_user_circle),
+          ),
           IconButton(
-              onPressed: () {
-                Get.toNamed(AppRoutes.Home + AppRoutes.Company);
-              },
-              icon: Icon(Icons.cake)),
+            onPressed: () {
+              Get.toNamed(AppRoutes.Home + AppRoutes.Company);
+            },
+            icon: Icon(Icons.cake),
+          ),
           IconButton(
-              onPressed: () {
-                Get.toNamed(AppRoutes.Home + AppRoutes.Projects);
-              },
-              icon: Icon(Icons.palette)),
+            onPressed: () {
+              Get.toNamed(AppRoutes.Home + AppRoutes.Projects);
+            },
+            icon: Icon(Icons.palette),
+          ),
+          IconButton(
+            onPressed: () {
+              Get.toNamed(AppRoutes.Login);
+            },
+            icon: Icon(Icons.exit_to_app),
+          ),
         ],
       ),
     );
